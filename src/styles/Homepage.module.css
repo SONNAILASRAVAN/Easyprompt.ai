@@ -1,0 +1,737 @@
+.firstblock {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  max-width: 100%;
+  /* align-items: center; */
+  height: auto;
+  background-image: linear-gradient(
+    75deg,
+    var(--e-global-color-cb2197e) 10%,
+    var(--e-global-color-6c2851d) 100%
+  );
+  color: white;
+}
+.firstblock > div:first-child {
+  margin: 4rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.firstblock > div h1 {
+  font-size: 50px;
+  letter-spacing: 0.7px;
+  max-width: fit-content;
+  margin-bottom: 0.6rem;
+  text-align: start;
+}
+.firstblock > div:first-child label {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  opacity: 0.75;
+  line-height: 1.8;
+}
+.firstblock button {
+  width: 206px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  opacity: 0.85;
+  font-size: 16px;
+  background: linear-gradient(221deg, #32d1e8 0%, #003275 100%);
+  margin: 4rem 0rem 0rem 1rem;
+}
+.firstblock img {
+  padding: 0.3rem 1rem 0rem 0rem;
+}
+.firstblock > div:nth-child(2) {
+  background: url(../../public/Images/homeshape-bg.png);
+}
+
+/* AboutUs Block*/
+
+.secondBlock {
+  display: grid;
+  grid-template-columns: 0.8fr 0.8fr;
+  gap: 0px;
+  vertical-align: middle;
+}
+.secondBlock > div:first-child {
+  margin-top: 2rem;
+}
+.InnerAboutBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.InnerAboutBlock > div:first-child > img:first-child {
+  border-radius: 30px 30px 30px 30px;
+  position: relative;
+}
+.InnerAboutBlock > div:first-child > img:nth-child(2) {
+  border-radius: 30px 30px 30px 30px;
+  position: absolute;
+  transform: translate(-37rem, 2rem);
+  /* border-top-left-radius: 3rem;
+  border-left: 3rem solid #eafcff;
+  border-top: 3rem solid #eafcff; */
+}
+
+.InnerAboutBlock {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 4rem 1rem 1rem 4rem;
+}
+.InnerAboutBlock > div > :nth-child(1) {
+  position: relative;
+}
+
+.InnerAboutBlock > div > :nth-child(1) > img:nth-child(2) {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+}
+.InnerAboutBlock > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: right;
+  margin: 2rem 0rem 0rem 0rem;
+}
+.InnerAboutBlock > div:nth-child(2) > img:nth-child(2) {
+  margin: 5rem 0rem 0rem 16rem;
+  border-radius: 20px;
+}
+.InnerAboutBlock > div:nth-child(2) > img:nth-child(1) {
+  transform: translate(34rem, -4rem);
+  border: 13px solid #ffffff;
+  border-radius: 30px;
+}
+
+.secondBlock > div:nth-child(2) {
+  padding: 5rem 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+}
+.secondBlock > div:nth-child(2) h5 {
+  color: #6ec1e4;
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 0.5rem;
+}
+.secondBlock > div:nth-child(2) h3 {
+  font-size: 40px;
+  width: 80%;
+  opacity: 0.9;
+  font-weight: 800;
+  margin: 0.5rem 0rem;
+  word-wrap: break-word;
+  text-align: start;
+}
+.secondBlock > div:nth-child(2) > label {
+  font-size: 18px;
+  width: 95%;
+  opacity: 0.6;
+  margin-top: 0.5rem;
+}
+.secondBlock > div:nth-child(2) section {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  align-items: center;
+  gap: 20px;
+}
+.secondBlock > div:nth-child(2) section > div {
+  margin: 2rem 0rem 0rem 0rem;
+}
+.secondBlock > div:nth-child(2) section > img {
+  margin: 2rem 0rem 0rem 0rem;
+}
+.secondBlock > div:nth-child(2) section h2 {
+  font-size: 24px;
+  text-align: start;
+  margin: 0.8rem 0rem;
+  opacity: 0.8;
+}
+.secondBlock > div:nth-child(2) section label {
+  font-size: 16px;
+  text-align: start;
+  opacity: 0.75;
+  margin-top: 0px;
+}
+.secondBlock > div:nth-child(2) button {
+  width: 144px;
+  height: 44px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(282deg, #2cb9d0 0%, #071b32 100%);
+  margin: 2rem 0rem 0rem 4rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* Features Block */
+.FeaturesBlock {
+  margin: 2rem 0rem 0rem 0rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: #eafcfe;
+  height: fit-content;
+  padding: 0rem 0rem 2rem 0rem;
+}
+.FeaturesBlock > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%;
+  padding: 0rem 0rem 0rem 4rem;
+}
+.FeaturesBlock h5 {
+  color: #6ec1e4;
+  font-size: 18px;
+  opacity: 1;
+  margin-bottom: 0.5rem;
+}
+.FeaturesBlock > div:nth-child(1) label {
+  font-size: 18px;
+  width: 100%;
+  opacity: 0.6;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0rem 0rem 0rem;
+  line-height: 1.5;
+}
+.FeaturesBlock > div:nth-child(1) button {
+  width: 254px;
+  height: 50px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(282deg, #2cb9d0 0%, #071b32 100%);
+  margin: 4rem 0rem 0rem 2rem;
+  color: #fff;
+  font-weight: 400;
+}
+.FeaturesBlock h3 {
+  font-size: 40px;
+  width: 80%;
+  opacity: 0.9;
+  font-weight: 800;
+  margin: 0.5rem 0rem;
+  word-wrap: break-word;
+  text-align: start;
+}
+.FeaturesBlock > div:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(2, 0.8fr);
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 0rem 0rem 0rem 2rem;
+}
+.FeaturesBlock > div:nth-child(2) > div:nth-child(2) {
+  margin: 4rem 0rem 0rem 0rem;
+}
+.FeaturesBlock > div:nth-child(2) > div:nth-child(4) {
+  margin: 4rem 0rem 0rem 0rem;
+}
+.FeaturesCard {
+  width: 210px;
+  height: 250px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 3px 3px 0px #20c8da;
+  background-color: #fff;
+}
+.FeaturesCard span {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #20c8da;
+  background-color: #ebf7fb;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.FeaturesCard label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.FeaturesCard button {
+  width: 180px;
+  font-size: 18px;
+  border: none;
+  height: 80px;
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #32d1e8;
+}
+.FeaturesCard button:hover p {
+  color: black;
+  animation: zoomInOut 1s infinite alternate;
+}
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Why weChoose Blaock from bharath */
+.why_choose_us {
+  background: url("../../public/Images/whychooseus.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1340px;
+  height: 810.281px;
+  /* margin-top: 4rem; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.why_choose_us img {
+  margin: 5rem 0rem 0rem 0rem;
+}
+
+.why_choose_us div:nth-child(2) {
+  margin: 9rem 0rem 0rem 0rem;
+  /* border: 2px solid red; */
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.why_choose_us div:nth-child(2) h5 {
+  color: #39e0f7;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 1;
+  margin-bottom: 0.5rem;
+}
+
+.why_choose_us > div:nth-child(2) h3 {
+  color: #fff;
+  font-size: 40px;
+  width: 80%;
+  opacity: 1;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: start;
+  margin-bottom: 0.5rem;
+}
+
+.why_choose_us > div:nth-child(2) label {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.5;
+  width: 70%;
+  margin: 0.5rem 0rem 0rem 0rem;
+  opacity: 0.5;
+  line-height: 1.5;
+}
+
+.why_choose_us div:nth-child(2) li {
+  list-style-type: none;
+  margin: 1rem 0rem 0rem 0rem;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.7;
+  position: relative;
+  padding-left: 6px;
+}
+
+.why_choose_us div:nth-child(2) li::before {
+  content: "\203A"; /* Unicode character for greater-than sign (>) */
+  position: relative;
+  left: -10px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #32d1e8;
+  text-align: center;
+  line-height: 16px;
+  color: black;
+  font-size: 18px;
+}
+
+.why_choose_us > div:nth-child(2) div {
+  margin-top: 1rem;
+  /* border: 2px solid red; */
+}
+
+.why_choose_us div:nth-child(2) img {
+  background-color: #39e0f7;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+/* Case Study */
+
+.CaseStudy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+.CaseStudy > h5 {
+  color: #39e0f7;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 1;
+  margin-bottom: 0rem;
+}
+.CaseStudy > h3 {
+  color: black;
+  font-size: 40px;
+  opacity: 1;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: start;
+  margin: 0.5rem 0rem 0rem 1rem;
+}
+.CaseStudy > div {
+  position: relative;
+  margin: 2rem 0rem 0rem 0rem;
+  width: 99%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+}
+.CaseStudy > div img {
+  border-radius: 40px;
+  filter: opacity(90%);
+  position: relative;
+  transition: filter 0.3s ease;
+}
+
+.CaseStudy > div:hover img {
+  filter: brightness(80%);
+}
+
+.CaseStudy > div img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background-color: rgba(57, 224, 247, 0.7);
+  transition: background-color 0.3s ease;
+}
+
+.CaseStudy > div:hover img::after {
+  background-color: rgba(57, 224, 247, 0.7);
+  z-index: 1;
+}
+
+.image_text {
+  position: absolute;
+  transform: translate(3rem, -12rem);
+}
+.image_text h2 {
+  font-size: 14px !important;
+  color: white;
+  opacity: 0.7;
+  width: 100%;
+  height: 30px !important;
+  background-color: #0000003b;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.image_text label {
+  font-size: 30px !important;
+  color: white;
+  font-weight: 700;
+  filter: brightness(100%);
+}
+/* Testimonials */
+.Testimonials {
+  background-color: #eafcfe;
+  background-image: url(../../public/Images/Testimonials-bg-image.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 2rem 0rem 0rem 0rem;
+  margin: 2rem 0rem 0rem 0rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Testimonials > h5 {
+  color: #39e0f7;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 1;
+  margin-bottom: 0rem;
+}
+.Testimonials > h3 {
+  color: black;
+  font-size: 40px;
+  opacity: 1;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: start;
+  margin: 0.5rem 0rem 4rem 1rem;
+  
+}
+/* Swiper Testimonals */
+.TestimonialCards {
+  height: 60vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.TestimonialCards > div {
+  width: 59px;
+  height: 59px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 0px 60px;
+  background: linear-gradient(180deg, #072940 0%, #1e849b 100%);
+  position: absolute;
+  transform: translate(17rem, -15rem);
+
+}
+.TestimonialCards > div>img {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0.5rem 0rem 0rem 1.6rem;
+}
+.TestimonialCards > div::before {
+  content: "";
+  font-size: 40px;
+  color: white;
+}
+.TestimonialCards img{
+  border-radius: 50%;
+}
+.TestimonialCards h2{
+  margin: 0.5rem 0rem;
+}
+.TestimonialCards h6{
+  margin: 0.5rem 0rem;
+}
+.TestimonialCards label{
+  width: 80%;
+  text-align: justify;
+  opacity: 0.9;
+  margin: 0.5rem 0rem;
+}
+
+/* FAQ"S Section */
+.FAQSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: fit-content;
+}
+.FAQSection > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 0rem 0rem 4rem;
+}
+
+.FAQSection > div h5 {
+  color: #39e0f7;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 1;
+  margin-bottom: 0rem;
+}
+.FAQSection > div > h3 {
+  color: black;
+  font-size: 40px;
+  opacity: 1;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: start;
+  margin: 0.5rem 0rem 0rem 0rem;
+  width: 80%;
+}
+/* Accordions */
+.AccordionContainer {
+  margin-top: 4rem;
+}
+
+.AccordionItem {
+  border-bottom: 1px solid #eafcfe;
+  cursor: pointer;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 4px 4px 1px 1px rgba(234, 252, 254, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 1rem;
+  margin: 3rem 0rem;
+}
+
+.AccordionItem h3 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  opacity: 0.8;
+  width: 90%;
+  word-wrap: break-word;
+}
+
+.AccordionItem h3:after {
+  content: "+";
+  margin-left: auto;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.AccordionItem.Active h3:after {
+  content: "-";
+  /* transform: rotate(45deg); */
+}
+
+.AccordionContent {
+  display: none;
+  margin-top: 1rem;
+}
+
+.AccordionContent p {
+  font-size: 2rem;
+  width: 80%;
+  height: auto;
+  text-align: start;
+}
+
+.AccordionItem.Active .AccordionContent {
+  display: block;
+}
+
+.FAQSection > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid none;
+}
+.FAQSCard {
+  border-bottom: 6px solid black;
+  box-shadow: 4px 4px 4px 4px rgba(234, 252, 254, 0.8);
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  margin: 6rem 0rem 0rem 4rem;
+  border-radius: 4rem;
+}
+.FAQSCard:hover {
+  border: 4px solid #36e0f7;
+}
+
+.FAQSCard input,
+.FAQSCard textarea,
+.FAQSCard button {
+  border: none;
+  outline: none;
+}
+
+.FAQSCard input:focus,
+.FAQSCard textarea:focus,
+.FAQSCard button:focus {
+  outline: none;
+}
+.FAQSCard h3 {
+  font-size: 30px !important;
+}
+.FAQSCard label {
+  font-size: 18px;
+  width: 100%;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0rem 0rem 0rem;
+  line-height: 1.5;
+}
+.FAQSCard > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.FAQSCard input {
+  height: 5rem !important;
+}
+.FAQSCard input::placeholder {
+  padding-left: 5px;
+}
+.FAQSCard input,
+.FAQSCard textarea {
+  margin: 1.5rem 0rem;
+  border-radius: 1rem;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #eaeaea;
+  font-size: 18px !important;
+}
+
+.FAQSCard button {
+  padding: 10px 20px;
+  /* background-color: #eafcfe; */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2rem;
+  width: 151.35px;
+  height: 45.599px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: linear-gradient(118deg, #072a41 0%, #186a81 100%);
+  color: #fff;
+}
+.FAQSCard button:hover {
+  /* background-color: #c9f4ff; */
+}

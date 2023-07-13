@@ -1,0 +1,266 @@
+.main_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 348.322px;
+  flex-shrink: 0;
+  background: url("../../public/UseCaseImages/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_container img {
+  margin: 1.5rem 0rem 0rem 5rem;
+  /* border: 2px solid red; */
+}
+
+.main_container div:nth-child(1) {
+  margin: 10rem 0rem 0rem 5rem;
+  color: #ffffff;
+}
+
+.main_container div:nth-child(1) h1 {
+  color: #eafcfe;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main_container div:nth-child(1) p {
+  color: #eafcfe;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.we_provide {
+  background: #eafcfe;
+  /* background: url("../../public/UseCaseImages/Testimonials-bg-image\ 2.png"); */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:fit-content;
+  flex-shrink: 0;
+  /* margin: 0px 15px 0px 15px; */
+  padding: 80px 0px 10px 0px;
+}
+
+.we_provide div:nth-child(1) h2 {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: var(--e-global-color-50a63db);
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-size: var(--e-global-typography-secondary-font-size);
+  font-weight: var(--e-global-typography-secondary-font-weight);
+  text-decoration: var(--e-global-typography-secondary-text-decoration);
+  line-height: var(--e-global-typography-secondary-line-height);
+}
+
+.we_provide div:nth-child(2) h2 {
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.usercards_maincontent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-right: 2.5rem;
+}
+
+.usecards_main {
+  display: flex;
+  width: auto;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  border-bottom: 2px solid #1f1e1e;
+  background: #fff;
+  margin: 2rem 0rem 0rem 3rem;
+}
+
+.usecards_main div:nth-child(2) {
+  margin: 2rem 0rem 0rem 1rem;
+}
+
+.usecards_main img {
+  margin: 2rem 0px 0px 2rem;
+  /* background-color: rgb(173, 211, 211); */
+  border-radius: 20px;
+}
+
+.usecards_main h4 {
+  padding-bottom: 0.5rem;
+}
+
+.usecards_main p {
+  max-width: 90%;
+  text-align: justify;
+  padding-bottom: 0.5rem;
+  color: #929292;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.usecards_main span {
+  color: #5de6f8;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.usecards_main a {
+  text-decoration: none;
+}
+
+.usecards_main div:nth-child(2) Link {
+  text-decoration: none;
+  border: 2px solid red;
+}
+
+.why_choose_us {
+  background: url("../../public/UseCaseImages/whychooseus.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1340px;
+  height: 710.281px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.why_choose_us img {
+  margin: 5rem 0rem 0rem 0rem;
+}
+
+.why_choose_us div:nth-child(2) {
+  margin: 9rem 0rem 0rem 0rem;
+  /* border: 2px solid red; */
+}
+
+.why_choose_us div:nth-child(2) h6 {
+  color: #39E0F7;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.why_choose_us div:nth-child(2) h2 {
+  color: #FFF;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 60%;
+  /* border: 2px solid red; */
+  text-align: start;
+  margin: 1rem 4rem 0rem 0rem;
+}
+
+.why_choose_us div:nth-child(2) p {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 50%;
+  margin: 1rem 0rem 0rem 0rem;
+  opacity: 0.7;
+}
+
+.why_choose_us div:nth-child(2) li {
+  list-style: none;
+  margin: 1rem 0rem 0rem 0rem;
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.7;
+}
+
+.why_choose_us div:nth-child(2) ul {
+  margin-top: 2rem;
+
+}
+
+.why_choose_us div:nth-child(2) img {
+  background-color: #39E0F7;
+  border-radius: 50%;
+  border: 2px solid red;
+
+}
+
+.usecase_faq {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2rem 0rem 0rem 10rem;
+
+}
+
+.usecase_faq div:nth-child(1) h6 {
+  color: #39E0F7;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.usecase_faq div:nth-child(1) h2 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+.usecase_faq div:nth-child(2){
+  width: 367.198px;
+height: 511.959px;
+flex-shrink: 0;
+  border-radius: 18px;
+border-bottom: 2px solid #000;
+box-shadow: 0px 0px 10px 10px rgba(212, 247, 251, 0.44);
+ 
+}
+ 
+
+.usecase_faq div:nth-child(2) h2 {
+  color: #000;
+ text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.usecase_faq div:nth-child(2) p {
+  color: #7A7A7A;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 45%;
+margin-top: 10px;
+text-align: center;
+}

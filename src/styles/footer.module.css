@@ -1,0 +1,103 @@
+.mainfooter {
+  background: url("../../public/UseCaseImages/footer 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85rem;
+  height: 347.631px;
+  /* padding: 0rem 0rem 0rem 3rem; */
+  /* padding: 0rem 0rem 0rem 3rem; */
+}
+
+.footer_content {
+  display: grid;
+  grid-template-columns: 500px 200px 200px 300px;
+  justify-content: space-around;
+
+  /* display: flex;
+  justify-content: space-around; */
+  color: antiquewhite;
+  padding: 2rem 2rem 0rem 2rem;
+}
+
+.footer_content div:nth-child(1) label {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.8;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+/* .footer_content img {
+  margin: 0rem 0rem 1rem 0rem;
+} */
+
+.footer_content div:nth-child(1) {
+  max-width: 90%;
+}
+
+.footerusefull li {
+  list-style-type: none;
+  margin: 1rem 0rem 0rem 0rem;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.7;
+  position: relative;
+  padding-left: 0px;
+}
+
+.footerusefull li::before {
+  content: "\203A";
+  /* Unicode character for greater-than sign (>) */
+  position: relative;
+  left: -10px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #32d1e8;
+  text-align: center;
+  line-height: 16px;
+  color: black;
+  font-size: 18px;
+}
+.footercontactus li {
+  list-style-type: none;
+  margin: 1rem 0rem 0rem 0rem;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.7;
+  position: relative;
+  padding-left: 0px;
+}
+.footercontactusimg {
+  display: flex;
+}
+.footercontactusimg img {
+  padding: 0.9rem 0rem 0rem 0rem;
+}
+.footerbuttom div:nth-child(2) h5 {
+  text-align: center;
+  margin: 1rem 0rem 0rem 0rem;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footerbuttom div:nth-child(1) {
+  border-bottom: 2px solid #32d1e8;
+  width: 60%;
+  display: flex;
+  margin: 3rem 0rem 0rem 17rem;
+}
